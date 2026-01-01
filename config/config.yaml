@@ -177,9 +177,9 @@ notification:
       chat_id: ""                     # Telegram Chat ID
 
       email:
-        from: "13215729013@163.com"                        # 发件人邮箱地址
+        from: ""                        # 发件人邮箱地址
         password: ""                    # 发件人邮箱密码或授权码
-        to: "citywuhs@126.com"                          # 收件人邮箱，多个用逗号分隔
+        to: ""                          # 收件人邮箱，多个用逗号分隔
         smtp_server: ""                 # SMTP 服务器（可选，留空自动识别）
         smtp_port: ""                   # SMTP 端口（可选，留空自动识别）
 
@@ -209,7 +209,7 @@ storage:
   formats:
     sqlite: true                      # 主存储（必须启用）
     txt: false                        # 是否生成 TXT 快照
-    html: true                       # 是否生成 HTML 报告（⚠️ 邮件推送必须设为 true）
+    html: false                       # 是否生成 HTML 报告（⚠️ 邮件推送必须设为 true）
 
   # 本地存储配置
   local:
